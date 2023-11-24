@@ -1,0 +1,20 @@
+### Tutorial #1 for Player Movement
+
+ Before you start with the code you want to make sure you select 
+
+
+
+This is the code for the player movement, this code allows te player to move in different directions it also includes a speed limit that you can set when playing the game.
+  
+       `Input.GetAxis("Horizontal")`
+     This input corresponds to the movement of the player moving left/right 
+
+        Input.GetAxis("Vertical")
+      This input corresponds to the movement of the player moving up/down 
+
+`float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");`
+
+        rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);`
+
+
