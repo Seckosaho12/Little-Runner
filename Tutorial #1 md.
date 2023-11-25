@@ -1,20 +1,11 @@
 ### Tutorial #1 for Player Movement
 
- Before you start with the code you want to make sure you select 
+The first thing you do before you start with tha game you should open GitHub and create a new 3d Project,
+after you should name your project where it says" My Project" 
 
+https://github.com/Seckosaho12/Little-Runner/issues/1#issue-2010164629
 
+The next step for the game once you create your project is to se
 
-This is the code for the player movement, this code allows te player to move in different directions it also includes a speed limit that you can set when playing the game.
-  
-       `Input.GetAxis("Horizontal")`
-     This input corresponds to the movement of the player moving left/right 
-
-        Input.GetAxis("Vertical")
-      This input corresponds to the movement of the player moving up/down 
-
-`float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");`
-
-        rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);`
 
 
