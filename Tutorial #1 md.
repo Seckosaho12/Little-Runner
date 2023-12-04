@@ -1,11 +1,17 @@
 ### Tutorial #1 for Player Movement
 
-The first thing you do before you start with tha game you should open GitHub and create a new 3d Project,
-after you should name your project where it says" My Project" 
+Create a new Unity project:
+Open Unity, create a new 3D project, and set up your scene with a character model.
 
-https://github.com/Seckosaho12/Little-Runner/issues/1#issue-2010164629
+Add a Rigidbody component:
+Attach a Rigidbody component to your character GameObject to enable physics interactions.
 
-The next step for the game once you create your project is to se
+Write a simple script for movement:
+Create a new C# script (e.g., PlayerMovement) and attach it to your character GameObject. Open the script in your preferred code editor.
+
+Write the movement code:
+
+
 
 
 
